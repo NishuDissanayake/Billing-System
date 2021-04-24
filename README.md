@@ -1,2 +1,2 @@
-# Billing-System
-C# billing system for a small retail shop
+# Cafe-Billing-System
+C# billing system for a small cafe
