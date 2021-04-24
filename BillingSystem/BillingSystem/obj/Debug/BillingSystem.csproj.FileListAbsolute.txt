@@ -1,0 +1,10 @@
+C:\Users\User\Desktop\Billing System\BillingSystem\BillingSystem\bin\Debug\BillingSystem.exe.config
+C:\Users\User\Desktop\Billing System\BillingSystem\BillingSystem\bin\Debug\BillingSystem.exe
+C:\Users\User\Desktop\Billing System\BillingSystem\BillingSystem\bin\Debug\BillingSystem.pdb
+C:\Users\User\Desktop\Billing System\BillingSystem\BillingSystem\obj\Debug\BillingSystem.csprojAssemblyReference.cache
+C:\Users\User\Desktop\Billing System\BillingSystem\BillingSystem\obj\Debug\BillingSystem.AdminDashboard.resources
+C:\Users\User\Desktop\Billing System\BillingSystem\BillingSystem\obj\Debug\BillingSystem.Properties.Resources.resources
+C:\Users\User\Desktop\Billing System\BillingSystem\BillingSystem\obj\Debug\BillingSystem.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Billing System\BillingSystem\BillingSystem\obj\Debug\BillingSystem.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Billing System\BillingSystem\BillingSystem\obj\Debug\BillingSystem.exe
+C:\Users\User\Desktop\Billing System\BillingSystem\BillingSystem\obj\Debug\BillingSystem.pdb
