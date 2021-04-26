@@ -18,3 +18,4 @@ C:\Users\User\Desktop\Billing System\Billing-System\BillingSystem\BillingSystem\
 C:\Users\User\Desktop\Billing System\Billing-System\BillingSystem\BillingSystem\obj\Debug\BillingSystem.csproj.CoreCompileInputs.cache
 C:\Users\User\Desktop\Billing System\Billing-System\BillingSystem\BillingSystem\obj\Debug\BillingSystem.exe
 C:\Users\User\Desktop\Billing System\Billing-System\BillingSystem\BillingSystem\obj\Debug\BillingSystem.pdb
+C:\Users\User\Desktop\Billing System\Billing-System\BillingSystem\BillingSystem\obj\Debug\BillingSystem.UserDashboard.resources
