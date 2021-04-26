@@ -115,7 +115,7 @@ namespace BillingSystem
             // 
             this.UserLabel.AutoSize = true;
             this.UserLabel.Font = new System.Drawing.Font("Ubuntu", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.UserLabel.Location = new System.Drawing.Point(13, 372);
+            this.UserLabel.Location = new System.Drawing.Point(12, 36);
             this.UserLabel.Name = "UserLabel";
             this.UserLabel.Size = new System.Drawing.Size(44, 21);
             this.UserLabel.TabIndex = 2;
@@ -126,7 +126,7 @@ namespace BillingSystem
             this.UserNameLabel.AutoSize = true;
             this.UserNameLabel.Font = new System.Drawing.Font("Ubuntu", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.UserNameLabel.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.UserNameLabel.Location = new System.Drawing.Point(62, 372);
+            this.UserNameLabel.Location = new System.Drawing.Point(61, 36);
             this.UserNameLabel.Name = "UserNameLabel";
             this.UserNameLabel.Size = new System.Drawing.Size(150, 21);
             this.UserNameLabel.TabIndex = 3;

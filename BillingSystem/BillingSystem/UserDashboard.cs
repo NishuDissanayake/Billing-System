@@ -16,5 +16,15 @@ namespace BillingSystem
         {
             InitializeComponent();
         }
+
+        private void UserNameLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void UserLabel_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
