@@ -39,6 +39,9 @@ namespace BillingSystem
             this.transactionsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.UserLabel = new System.Windows.Forms.Label();
             this.UserNameLabel = new System.Windows.Forms.Label();
+            this.StoreFNamelabel = new System.Windows.Forms.Label();
+            this.StoreLNameLabel = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.Footer.SuspendLayout();
             this.TopMenu1.SuspendLayout();
             this.SuspendLayout();
@@ -128,11 +131,46 @@ namespace BillingSystem
             this.UserNameLabel.TabIndex = 3;
             this.UserNameLabel.Text = "Nishu Dissanayake";
             // 
+            // StoreFNamelabel
+            // 
+            this.StoreFNamelabel.AutoSize = true;
+            this.StoreFNamelabel.Font = new System.Drawing.Font("Ubuntu", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.StoreFNamelabel.Location = new System.Drawing.Point(259, 179);
+            this.StoreFNamelabel.Name = "StoreFNamelabel";
+            this.StoreFNamelabel.Size = new System.Drawing.Size(57, 36);
+            this.StoreFNamelabel.TabIndex = 4;
+            this.StoreFNamelabel.Text = "My";
+            // 
+            // StoreLNameLabel
+            // 
+            this.StoreLNameLabel.AutoSize = true;
+            this.StoreLNameLabel.Font = new System.Drawing.Font("Ubuntu", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.StoreLNameLabel.ForeColor = System.Drawing.Color.SteelBlue;
+            this.StoreLNameLabel.Location = new System.Drawing.Point(322, 179);
+            this.StoreLNameLabel.Name = "StoreLNameLabel";
+            this.StoreLNameLabel.Size = new System.Drawing.Size(90, 36);
+            this.StoreLNameLabel.TabIndex = 5;
+            this.StoreLNameLabel.Text = "Store";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Ubuntu", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.label1.Location = new System.Drawing.Point(149, 241);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(399, 25);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "Billing and Inventory Management System";
+            // 
             // AdminDashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(693, 424);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.StoreLNameLabel);
+            this.Controls.Add(this.StoreFNamelabel);
             this.Controls.Add(this.UserNameLabel);
             this.Controls.Add(this.UserLabel);
             this.Controls.Add(this.Footer);
@@ -162,6 +200,9 @@ namespace BillingSystem
         private System.Windows.Forms.ToolStripMenuItem transactionsToolStripMenuItem;
         private System.Windows.Forms.Label UserLabel;
         private System.Windows.Forms.Label UserNameLabel;
+        private System.Windows.Forms.Label StoreFNamelabel;
+        private System.Windows.Forms.Label StoreLNameLabel;
+        private System.Windows.Forms.Label label1;
     }
 }
 
