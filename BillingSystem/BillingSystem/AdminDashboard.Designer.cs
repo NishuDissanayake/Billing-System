@@ -68,6 +68,7 @@ namespace BillingSystem
             // 
             // TopMenu1
             // 
+            this.TopMenu1.Font = new System.Drawing.Font("Ubuntu", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TopMenu1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.usersToolStripMenuItem,
             this.categoryToolStripMenuItem,
@@ -76,7 +77,7 @@ namespace BillingSystem
             this.transactionsToolStripMenuItem});
             this.TopMenu1.Location = new System.Drawing.Point(0, 0);
             this.TopMenu1.Name = "TopMenu1";
-            this.TopMenu1.Size = new System.Drawing.Size(693, 24);
+            this.TopMenu1.Size = new System.Drawing.Size(693, 25);
             this.TopMenu1.TabIndex = 1;
             this.TopMenu1.Text = "menuStrip1";
             // 
@@ -113,21 +114,21 @@ namespace BillingSystem
             // UserLabel
             // 
             this.UserLabel.AutoSize = true;
-            this.UserLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.UserLabel.Location = new System.Drawing.Point(12, 34);
+            this.UserLabel.Font = new System.Drawing.Font("Ubuntu", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.UserLabel.Location = new System.Drawing.Point(13, 372);
             this.UserLabel.Name = "UserLabel";
-            this.UserLabel.Size = new System.Drawing.Size(43, 16);
+            this.UserLabel.Size = new System.Drawing.Size(44, 21);
             this.UserLabel.TabIndex = 2;
-            this.UserLabel.Text = "User: ";
+            this.UserLabel.Text = "User";
             // 
             // UserNameLabel
             // 
             this.UserNameLabel.AutoSize = true;
-            this.UserNameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.UserNameLabel.ForeColor = System.Drawing.Color.DarkBlue;
-            this.UserNameLabel.Location = new System.Drawing.Point(53, 34);
+            this.UserNameLabel.Font = new System.Drawing.Font("Ubuntu", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.UserNameLabel.ForeColor = System.Drawing.Color.RoyalBlue;
+            this.UserNameLabel.Location = new System.Drawing.Point(62, 372);
             this.UserNameLabel.Name = "UserNameLabel";
-            this.UserNameLabel.Size = new System.Drawing.Size(142, 16);
+            this.UserNameLabel.Size = new System.Drawing.Size(150, 21);
             this.UserNameLabel.TabIndex = 3;
             this.UserNameLabel.Text = "Nishu Dissanayake";
             // 
@@ -135,7 +136,7 @@ namespace BillingSystem
             // 
             this.StoreFNamelabel.AutoSize = true;
             this.StoreFNamelabel.Font = new System.Drawing.Font("Ubuntu", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.StoreFNamelabel.Location = new System.Drawing.Point(259, 179);
+            this.StoreFNamelabel.Location = new System.Drawing.Point(265, 135);
             this.StoreFNamelabel.Name = "StoreFNamelabel";
             this.StoreFNamelabel.Size = new System.Drawing.Size(57, 36);
             this.StoreFNamelabel.TabIndex = 4;
@@ -146,7 +147,7 @@ namespace BillingSystem
             this.StoreLNameLabel.AutoSize = true;
             this.StoreLNameLabel.Font = new System.Drawing.Font("Ubuntu", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.StoreLNameLabel.ForeColor = System.Drawing.Color.SteelBlue;
-            this.StoreLNameLabel.Location = new System.Drawing.Point(322, 179);
+            this.StoreLNameLabel.Location = new System.Drawing.Point(328, 135);
             this.StoreLNameLabel.Name = "StoreLNameLabel";
             this.StoreLNameLabel.Size = new System.Drawing.Size(90, 36);
             this.StoreLNameLabel.TabIndex = 5;
@@ -157,7 +158,7 @@ namespace BillingSystem
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Ubuntu", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.label1.Location = new System.Drawing.Point(149, 241);
+            this.label1.Location = new System.Drawing.Point(155, 197);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(399, 25);
             this.label1.TabIndex = 6;
