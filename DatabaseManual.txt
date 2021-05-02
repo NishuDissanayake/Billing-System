@@ -3,4 +3,5 @@
 01. Start MySQL Server Management Studio.
 02. Create a new database with the name "RetailStore".
 03. Expand the newly created databse.
-04. Click on tables.
+04. Create a new table by right clicking on tables option.
+
