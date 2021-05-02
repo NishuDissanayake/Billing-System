@@ -9,4 +9,6 @@
 -> The user type represents admin or general user. They have two different levels of visibility and accessibility to the system. added_by is the ID of the user who curretly uses the system.
 05. Create another table as "categoriesTable"
 -> id(int, primary key, auto increment), title(varchar(50), description(text), added_date(datetime), added_by(int)
+06. Create the third table "ProductsTable"
+-> id(int, primary key, auto increment), name(varchar(50)), category(int), description(text), rate(decimal(18,2)), quantity(decimal(18,2)), added_date(datetime), added_by(int)
 
