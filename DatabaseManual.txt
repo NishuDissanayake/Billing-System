@@ -4,4 +4,6 @@
 02. Create a new database with the name "RetailStore".
 03. Expand the newly created databse.
 04. Create a new table by right clicking on tables option.
-
+- UserTable 
+-> id (int, primary key, auto increment), first_name(varchar(50)), last_name(varchar(50)), email(varchar(150)), username(varchar(50)), password(text), contact(varchar(15)), address(text), gender(varchar(10)), user_type(varchar(15)), added_date(datetime), added_by(int)
+-> The user type represents admin or general user. They have two different levels of visibility and accessibility to the system. added_by is the ID of the user who curretly uses the system.
