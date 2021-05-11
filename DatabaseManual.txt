@@ -12,7 +12,7 @@
 05. Create another table as "CategoriesTable"
 -> id(int, primary key, auto increment), title(varchar(50), description(text), added_date(datetime), added_by(int)
 06. Create the third table "ProductsTable"
--> id(int), name(varchar(50)), category(int), description(text), rate(decimal(18,2)), quantity(decimal(18,2)), added_date(datetime), added_by(int)
+-> id(int, primary key, auto increment), name(varchar(50)), category(int), description(text), rate(decimal(18,2)), quantity(decimal(18,2)), added_date(datetime), added_by(int)
 07. Create fourth table "DeliveryAndCustomersTable"
 -> id(int,primary key, auto increment), type(varchar(50)), name(varchar(50)), email(varchar(150)), contact(varchar(15)), address(text), added_date(datetime), added_by(int)
-
+08. In case you forgot to add something and need to alter a table, you can right click on the table, click desisgn and then edit. But when you press Ctrl+S, if you cannot save the changes, click the tools tab on toolbar, select options, select designer, select Table and Database designers, then uncheck the box saying prevent changes. Now you can click okay and save your changes.
