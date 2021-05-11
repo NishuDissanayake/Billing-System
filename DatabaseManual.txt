@@ -1,5 +1,7 @@
 ### Instructions to create database
 
+#####For auto incrementing -> select the row -> go to porperties tab below -> expand table designer -> double click on identity specificatin -> double click on is identity
+
 01. Start MySQL Server Management Studio.
 02. Create a new database with the name "RetailStore".
 03. Expand the newly created databse.
@@ -7,8 +9,10 @@
 - UserTable 
 -> id (int, primary key, auto increment), first_name(varchar(50)), last_name(varchar(50)), email(varchar(150)), username(varchar(50)), password(text), contact(varchar(15)), address(text), gender(varchar(10)), user_type(varchar(15)), added_date(datetime), added_by(int)
 -> The user type represents admin or general user. They have two different levels of visibility and accessibility to the system. added_by is the ID of the user who curretly uses the system.
-05. Create another table as "categoriesTable"
+05. Create another table as "CategoriesTable"
 -> id(int, primary key, auto increment), title(varchar(50), description(text), added_date(datetime), added_by(int)
 06. Create the third table "ProductsTable"
 -> id(int), name(varchar(50)), category(int), description(text), rate(decimal(18,2)), quantity(decimal(18,2)), added_date(datetime), added_by(int)
+07. Create fourth table "DeliveryAndCustomersTable"
+-> id(int,primary key, auto increment), type(varchar(50)), name(varchar(50)), email(varchar(150)), contact(varchar(15)), address(text), added_date(datetime), added_by(int)
 
