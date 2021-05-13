@@ -20,3 +20,5 @@
 -> id(int,primary key, auto increment), type(varchar(50)), deal_cust_id(int), grand_total(decimal(18,2)), transaction_date(datetime), tax(decimal(18,2)), discount(decimal(18,2)), added_by(int)
 10. Create the last table "TransactionDetailsTable"
 -> id(int,primary key, auto increment), product_id(int), rate(decimal(18,2)), quantity(decimal(18,2)), total(decimal(18,2)), deal_cust_id(int), added_date(datetime), added_by(int)
+
+Please remember to refresh and check the progress after creating each table. You should have 6 tables in total.
