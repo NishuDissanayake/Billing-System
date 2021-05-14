@@ -29,5 +29,16 @@ Please remember to refresh and check the progress after creating each table. You
 2. Right click on database connectons
 3. Click add connection
 4. Microsoft SQL server -> give "(local)" for server name -> Select RetailStore database -> OK
+5. Go to app.config
+6. Add below code
+```
+<connectionStrings>
+		<add name="connstrng" connectionString=""/>
+	</connectionStrings>
+```
+You can get the connection string from clicking server explorer -> your database -> click it and go check the properties panel. There youu can find the connection string.
+7. Ctrl + S
+
+
 
 
