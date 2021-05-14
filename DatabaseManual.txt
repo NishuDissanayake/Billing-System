@@ -1,0 +1,44 @@
+### Instructions to create database
+
+#####For auto incrementing -> select the row -> go to porperties tab below -> expand table designer -> double click on identity specificatin -> double click on is identity
+
+01. Start MySQL Server Management Studio.
+02. Create a new database with the name "RetailStore".
+03. Expand the newly created databse.
+04. Create a new table by right clicking on tables option.
+- UserTable 
+-> id (int, primary key, auto increment), first_name(varchar(50)), last_name(varchar(50)), email(varchar(150)), username(varchar(50)), password(text), contact(varchar(15)), address(text), gender(varchar(10)), user_type(varchar(15)), added_date(datetime), added_by(int)
+-> The user type represents admin or general user. They have two different levels of visibility and accessibility to the system. added_by is the ID of the user who curretly uses the system.
+05. Create another table as "CategoriesTable"
+-> id(int, primary key, auto increment), title(varchar(50), description(text), added_date(datetime), added_by(int)
+06. Create the third table "ProductsTable"
+-> id(int, primary key, auto increment), name(varchar(50)), category(int), description(text), rate(decimal(18,2)), quantity(decimal(18,2)), added_date(datetime), added_by(int)
+07. Create fourth table "DeliveryAndCustomersTable"
+-> id(int,primary key, auto increment), type(varchar(50)), name(varchar(50)), email(varchar(150)), contact(varchar(15)), address(text), added_date(datetime), added_by(int)
+08. In case you forgot to add something and need to alter a table, you can right click on the table, click desisgn and then edit. But when you press Ctrl+S, if you cannot save the changes, click the tools tab on toolbar, select options, select designer, select Table and Database designers, then uncheck the box saying prevent saving changes. Now you can click okay and save your changes.
+09. Create the fifth table as "TransactionsTable"
+-> id(int,primary key, auto increment), type(varchar(50)), deal_cust_id(int), grand_total(decimal(18,2)), transaction_date(datetime), tax(decimal(18,2)), discount(decimal(18,2)), added_by(int)
+10. Create the last table "TransactionDetailsTable"
+-> id(int,primary key, auto increment), product_id(int), rate(decimal(18,2)), quantity(decimal(18,2)), total(decimal(18,2)), deal_cust_id(int), added_date(datetime), added_by(int)
+
+Please remember to refresh and check the progress after creating each table. You should have 6 tables in total.
+
+### Connect the databse to the project through a connection string
+
+1. Open server explorer
+2. Right click on database connectons
+3. Click add connection
+4. Microsoft SQL server -> give "(local)" for server name -> Select RetailStore database -> OK
+5. Go to app.config
+6. Add below code
+```
+<connectionStrings>
+		<add name="connstrng" connectionString=""/>
+	</connectionStrings>
+```
+You can get the connection string from clicking server explorer -> your database -> click it and go check the properties panel. There youu can find the connection string.
+7. Ctrl + S
+
+
+
+
