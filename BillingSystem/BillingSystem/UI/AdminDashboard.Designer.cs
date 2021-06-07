@@ -68,7 +68,7 @@ namespace BillingSystem
             // 
             // TopMenu1
             // 
-            this.TopMenu1.Font = new System.Drawing.Font("Ubuntu", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TopMenu1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TopMenu1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.usersToolStripMenuItem,
             this.categoryToolStripMenuItem,
@@ -77,90 +77,91 @@ namespace BillingSystem
             this.transactionsToolStripMenuItem});
             this.TopMenu1.Location = new System.Drawing.Point(0, 0);
             this.TopMenu1.Name = "TopMenu1";
-            this.TopMenu1.Size = new System.Drawing.Size(693, 25);
+            this.TopMenu1.Size = new System.Drawing.Size(693, 24);
             this.TopMenu1.TabIndex = 1;
             this.TopMenu1.Text = "menuStrip1";
             // 
             // usersToolStripMenuItem
             // 
             this.usersToolStripMenuItem.Name = "usersToolStripMenuItem";
-            this.usersToolStripMenuItem.Size = new System.Drawing.Size(47, 20);
+            this.usersToolStripMenuItem.Size = new System.Drawing.Size(61, 20);
             this.usersToolStripMenuItem.Text = "Users";
+            this.usersToolStripMenuItem.Click += new System.EventHandler(this.usersToolStripMenuItem_Click);
             // 
             // categoryToolStripMenuItem
             // 
             this.categoryToolStripMenuItem.Name = "categoryToolStripMenuItem";
-            this.categoryToolStripMenuItem.Size = new System.Drawing.Size(67, 20);
+            this.categoryToolStripMenuItem.Size = new System.Drawing.Size(83, 20);
             this.categoryToolStripMenuItem.Text = "Category";
             // 
             // productsToolStripMenuItem
             // 
             this.productsToolStripMenuItem.Name = "productsToolStripMenuItem";
-            this.productsToolStripMenuItem.Size = new System.Drawing.Size(66, 20);
+            this.productsToolStripMenuItem.Size = new System.Drawing.Size(81, 20);
             this.productsToolStripMenuItem.Text = "Products";
             // 
             // inventoryToolStripMenuItem
             // 
             this.inventoryToolStripMenuItem.Name = "inventoryToolStripMenuItem";
-            this.inventoryToolStripMenuItem.Size = new System.Drawing.Size(69, 20);
+            this.inventoryToolStripMenuItem.Size = new System.Drawing.Size(83, 20);
             this.inventoryToolStripMenuItem.Text = "Inventory";
             // 
             // transactionsToolStripMenuItem
             // 
             this.transactionsToolStripMenuItem.Name = "transactionsToolStripMenuItem";
-            this.transactionsToolStripMenuItem.Size = new System.Drawing.Size(84, 20);
+            this.transactionsToolStripMenuItem.Size = new System.Drawing.Size(110, 20);
             this.transactionsToolStripMenuItem.Text = "Transactions";
             // 
             // UserLabel
             // 
             this.UserLabel.AutoSize = true;
-            this.UserLabel.Font = new System.Drawing.Font("Ubuntu", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.UserLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.UserLabel.Location = new System.Drawing.Point(12, 36);
             this.UserLabel.Name = "UserLabel";
-            this.UserLabel.Size = new System.Drawing.Size(44, 21);
+            this.UserLabel.Size = new System.Drawing.Size(47, 20);
             this.UserLabel.TabIndex = 2;
             this.UserLabel.Text = "User";
             // 
             // UserNameLabel
             // 
             this.UserNameLabel.AutoSize = true;
-            this.UserNameLabel.Font = new System.Drawing.Font("Ubuntu", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.UserNameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.UserNameLabel.ForeColor = System.Drawing.Color.RoyalBlue;
             this.UserNameLabel.Location = new System.Drawing.Point(61, 36);
             this.UserNameLabel.Name = "UserNameLabel";
-            this.UserNameLabel.Size = new System.Drawing.Size(150, 21);
+            this.UserNameLabel.Size = new System.Drawing.Size(161, 20);
             this.UserNameLabel.TabIndex = 3;
             this.UserNameLabel.Text = "Nishu Dissanayake";
             // 
             // StoreFNamelabel
             // 
             this.StoreFNamelabel.AutoSize = true;
-            this.StoreFNamelabel.Font = new System.Drawing.Font("Ubuntu", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.StoreFNamelabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.StoreFNamelabel.Location = new System.Drawing.Point(265, 135);
             this.StoreFNamelabel.Name = "StoreFNamelabel";
-            this.StoreFNamelabel.Size = new System.Drawing.Size(57, 36);
+            this.StoreFNamelabel.Size = new System.Drawing.Size(56, 33);
             this.StoreFNamelabel.TabIndex = 4;
             this.StoreFNamelabel.Text = "My";
             // 
             // StoreLNameLabel
             // 
             this.StoreLNameLabel.AutoSize = true;
-            this.StoreLNameLabel.Font = new System.Drawing.Font("Ubuntu", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.StoreLNameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.StoreLNameLabel.ForeColor = System.Drawing.Color.SteelBlue;
             this.StoreLNameLabel.Location = new System.Drawing.Point(328, 135);
             this.StoreLNameLabel.Name = "StoreLNameLabel";
-            this.StoreLNameLabel.Size = new System.Drawing.Size(90, 36);
+            this.StoreLNameLabel.Size = new System.Drawing.Size(89, 33);
             this.StoreLNameLabel.TabIndex = 5;
             this.StoreLNameLabel.Text = "Store";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Ubuntu", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.DodgerBlue;
             this.label1.Location = new System.Drawing.Point(155, 197);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(399, 25);
+            this.label1.Size = new System.Drawing.Size(399, 24);
             this.label1.TabIndex = 6;
             this.label1.Text = "Billing and Inventory Management System";
             // 
@@ -180,6 +181,7 @@ namespace BillingSystem
             this.Name = "AdminDashboard";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Admin Dashboard";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Footer.ResumeLayout(false);
             this.Footer.PerformLayout();
             this.TopMenu1.ResumeLayout(false);

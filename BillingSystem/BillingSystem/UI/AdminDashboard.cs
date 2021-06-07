@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BillingSystem.UI;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,12 @@ namespace BillingSystem
         public AdminDashboard()
         {
             InitializeComponent();
+        }
+
+        private void usersToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Users user = new Users();
+            user.Show();
         }
     }
 }
