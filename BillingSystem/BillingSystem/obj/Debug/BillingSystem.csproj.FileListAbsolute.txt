@@ -19,3 +19,15 @@ C:\Users\User\Desktop\Billing System\Billing-System\BillingSystem\BillingSystem\
 C:\Users\User\Desktop\Billing System\Billing-System\BillingSystem\BillingSystem\obj\Debug\BillingSystem.exe
 C:\Users\User\Desktop\Billing System\Billing-System\BillingSystem\BillingSystem\obj\Debug\BillingSystem.pdb
 C:\Users\User\Desktop\Billing System\Billing-System\BillingSystem\BillingSystem\obj\Debug\BillingSystem.UserDashboard.resources
+C:\Users\HP\Desktop\Billing system\Billing-System\BillingSystem\BillingSystem\obj\Debug\BillingSystem.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\Billing system\Billing-System\BillingSystem\BillingSystem\obj\Debug\BillingSystem.AdminDashboard.resources
+C:\Users\HP\Desktop\Billing system\Billing-System\BillingSystem\BillingSystem\obj\Debug\BillingSystem.UserDashboard.resources
+C:\Users\HP\Desktop\Billing system\Billing-System\BillingSystem\BillingSystem\obj\Debug\BillingSystem.Properties.Resources.resources
+C:\Users\HP\Desktop\Billing system\Billing-System\BillingSystem\BillingSystem\obj\Debug\BillingSystem.UI.Users.resources
+C:\Users\HP\Desktop\Billing system\Billing-System\BillingSystem\BillingSystem\obj\Debug\BillingSystem.csproj.GenerateResource.cache
+C:\Users\HP\Desktop\Billing system\Billing-System\BillingSystem\BillingSystem\obj\Debug\BillingSystem.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\Billing system\Billing-System\BillingSystem\BillingSystem\obj\Debug\BillingSystem.exe
+C:\Users\HP\Desktop\Billing system\Billing-System\BillingSystem\BillingSystem\obj\Debug\BillingSystem.pdb
+C:\Users\HP\Desktop\Billing system\Billing-System\BillingSystem\BillingSystem\bin\Debug\BillingSystem.exe.config
+C:\Users\HP\Desktop\Billing system\Billing-System\BillingSystem\BillingSystem\bin\Debug\BillingSystem.exe
+C:\Users\HP\Desktop\Billing system\Billing-System\BillingSystem\BillingSystem\bin\Debug\BillingSystem.pdb
