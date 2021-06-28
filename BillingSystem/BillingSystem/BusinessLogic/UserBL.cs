@@ -21,6 +21,8 @@ namespace BillingSystem.BusinessLogic
 
         public string contact { get; set; }
 
+        public string address { get; set; }
+
         public string gender { get; set; }
 
         public string usertype { get; set; }
