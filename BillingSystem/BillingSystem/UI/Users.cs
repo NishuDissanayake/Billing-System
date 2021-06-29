@@ -1,4 +1,6 @@
-﻿using System;
+﻿using BillingSystem.BusinessLogic;
+using BillingSystem.DataAxisLayer;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -16,6 +18,9 @@ namespace BillingSystem.UI
         {
             InitializeComponent();
         }
+
+        UserBL bl = new UserBL();
+        userDAL dal = new userDAL();
 
         private void CloseButton_Click(object sender, EventArgs e)
         {
@@ -35,6 +40,31 @@ namespace BillingSystem.UI
         private void Users_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void addButton_Click(object sender, EventArgs e)
+        {
+            bl.firstname = fnameText.Text;
+            bl.lastname = lnameText.Text;
+            bl.email = emailText.Text;
+            bl.username = unameText.Text;
+            bl.password = pwordText.Text;
+            bl.contact = contactText.Text;
+            bl.address = addText.Text;
+            bl.gender = genderCombo.Text;
+            bl.usertype = userCombo.Text;
+            bl.addeddate = DateTime.Now;
+            bl.addedby = 1;
+
+            bool success = dal.insert(bl);
+            if(success == true)
+            {
+                MessageBox.Show("User added successfully");
+            }
+            else
+            {
+                MessageBox.Show("Error adding the user");
+            }
         }
     }
 }
