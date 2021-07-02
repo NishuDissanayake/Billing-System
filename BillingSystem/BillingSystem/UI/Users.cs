@@ -39,7 +39,8 @@ namespace BillingSystem.UI
 
         private void Users_Load(object sender, EventArgs e)
         {
-
+            DataTable dt = dal.Select();
+            userGrid.DataSource = dt;
         }
 
         private void addButton_Click(object sender, EventArgs e)
@@ -65,6 +66,13 @@ namespace BillingSystem.UI
             {
                 MessageBox.Show("Error adding the user");
             }
+            DataTable dt = dal.Select();
+            userGrid.DataSource = dt;
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
