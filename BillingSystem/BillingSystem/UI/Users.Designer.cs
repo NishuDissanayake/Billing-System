@@ -328,6 +328,7 @@ namespace BillingSystem.UI
             this.addButton.TabIndex = 24;
             this.addButton.Text = "Add";
             this.addButton.UseVisualStyleBackColor = false;
+            this.addButton.Click += new System.EventHandler(this.addButton_Click);
             // 
             // deleteButton
             // 

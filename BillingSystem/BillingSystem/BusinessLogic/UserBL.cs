@@ -27,7 +27,7 @@ namespace BillingSystem.BusinessLogic
 
         public string usertype { get; set; }
 
-        public string addeddate { get; set; }
+        public DateTime addeddate { get; set; }
 
         public int addedby { get; set; }
     }
