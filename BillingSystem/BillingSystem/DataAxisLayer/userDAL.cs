@@ -98,11 +98,12 @@ namespace BillingSystem.DataAxisLayer
             SqlConnection con = new SqlConnection(myconstring);
             try
             {
-                string sql = "UPDATE UserTable SET first_name = @first_name, last_name = @last_name, email = @email, username = @username, password = @password, contact = @password, gender = @gender, user_type = @user_type, added_date = @added_date, added_by = @added_by; WHERE id = @id";
+                string sql = "UPDATE UserTable SET first_name = @first_name, last_name = @last_name, email = @email, username = @username, password = @password, contact = @contact, address = @address, gender = @gender, user_type = @user_type, added_date = @added_date, added_by = @added_by WHERE id = @id";
                 SqlCommand com = new SqlCommand(sql, con);
                 com.Parameters.AddWithValue("@first_name", u.firstname);
                 com.Parameters.AddWithValue("@last_name", u.lastname);
                 com.Parameters.AddWithValue("@email", u.email);
+                com.Parameters.AddWithValue("@username", u.username);
                 com.Parameters.AddWithValue("@password", u.password);
                 com.Parameters.AddWithValue("@contact", u.contact);
                 com.Parameters.AddWithValue("@address", u.address);

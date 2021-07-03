@@ -317,6 +317,8 @@ namespace BillingSystem.UI
             this.userGrid.Name = "userGrid";
             this.userGrid.Size = new System.Drawing.Size(412, 374);
             this.userGrid.TabIndex = 23;
+            this.userGrid.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.userGrid_CellContentClick);
+            this.userGrid.RowHeaderMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.userGrid_RowHeaderMouseClick);
             // 
             // addButton
             // 
@@ -342,6 +344,7 @@ namespace BillingSystem.UI
             this.deleteButton.TabIndex = 25;
             this.deleteButton.Text = "Delete";
             this.deleteButton.UseVisualStyleBackColor = false;
+            this.deleteButton.Click += new System.EventHandler(this.deleteButton_Click);
             // 
             // updateButton
             // 
@@ -354,6 +357,7 @@ namespace BillingSystem.UI
             this.updateButton.TabIndex = 26;
             this.updateButton.Text = "Update";
             this.updateButton.UseVisualStyleBackColor = false;
+            this.updateButton.Click += new System.EventHandler(this.updateButton_Click);
             // 
             // Users
             // 
