@@ -296,9 +296,9 @@ namespace BillingSystem.UI
             this.searchText.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.searchText.Location = new System.Drawing.Point(430, 54);
             this.searchText.Name = "searchText";
-            this.searchText.ReadOnly = true;
             this.searchText.Size = new System.Drawing.Size(358, 22);
             this.searchText.TabIndex = 22;
+            this.searchText.TextChanged += new System.EventHandler(this.searchText_TextChanged);
             // 
             // search
             // 

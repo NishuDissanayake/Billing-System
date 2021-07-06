@@ -180,5 +180,33 @@ namespace BillingSystem.DataAxisLayer
         }
 
         #endregion
+
+        #region Search user by key words
+
+        public DataTable Search(string keywords)
+        {
+            SqlConnection con = new SqlConnection(myconstring);
+
+            DataTable dt = new DataTable();
+            try
+            {
+                string sql = "SELECT * FROM UserTable WHERE id LIKE '%" + keywords + "%' OR first_name LIKE '%" + keywords + "%' OR last_name LIKE '%" + keywords + "%' OR username LIKE '%" + keywords + "%'";
+                SqlCommand com = new SqlCommand(sql, con);
+                SqlDataAdapter ad = new SqlDataAdapter(com);
+                con.Open();
+                ad.Fill(dt);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+                con.Close();
+            }
+            return dt;
+        }
+
+        #endregion
     }
 }
