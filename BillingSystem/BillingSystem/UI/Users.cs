@@ -155,5 +155,21 @@ namespace BillingSystem.UI
             DataTable dt = dal.Select();
             userGrid.DataSource = dt;
         }
+
+        private void searchText_TextChanged(object sender, EventArgs e)
+        {
+            string keywords = searchText.Text;
+
+            if(keywords != "")
+            {
+                DataTable dt = dal.Search(keywords);
+                userGrid.DataSource = dt;
+            }
+            else
+            {
+                DataTable dt = dal.Select();
+                userGrid.DataSource = dt;
+            }
+        }
     }
 }
